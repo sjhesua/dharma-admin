@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "first_name":"jhesua",
+        "state":true
+    },
+    {
+        "id":2,
+        "first_name":"Madeley",
+        "state":false
+    }
+]

@@ -1,0 +1,45 @@
+.bg-gradient-primary {
+    background-color: #462169ab;
+    background-image: linear-gradient(
+180deg
+, #48226a 10%, #462169e6 100%);
+    background-size: cover;
+}
+.bg-img-j
+{
+    background-image: linear-gradient(to bottom, rgb(76 39 109 / 48%), rgb(72 34 106)), url(/img/fondo_login.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-login-image
+{
+    background:none;
+}
+form.user .form-control-user
+{
+    border-radius: 1.2rem;
+    background:none;
+    color: white;
+    border: solid white 1px;
+}
+form.user .form-control-user::placeholder
+{
+    color: white;
+}
+.btn-clean
+{
+    background: linear-gradient(to bottom, rgb(76 39 109 / 0%), rgb(72 34 106 / 0));
+    border: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 1rem!important;
+}
+.btn-clean:hover
+{
+    background: linear-gradient(to bottom, rgb(76 39 109 / 48%), rgb(72 34 106));
+}
+.custom-control-input:checked ~ .custom-control-label::before
+{
+    border-color:  #48216a;
+    background-color:  linear-gradient(to bottom, rgb(76 39 109 / 48%), rgb(72 34 106));
+}
